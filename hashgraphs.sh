@@ -62,4 +62,4 @@ HASHRATE=$($MSPATH/minerstats | jq -r .hashrate )
 	done
 	echo "--------------------------------------------------------------"
 PAYLOAD="$(echo -e $PAYLOAD)"
-#STATS_WRITE "$PAYLOAD"
+STATS_WRITE "$PAYLOAD"
